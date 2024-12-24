@@ -1,0 +1,27 @@
+var _path;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgLock(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 30,
+    height: 30,
+    viewBox: "0 0 30 30",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M15 2C11.1457 2 8 5.14567 8 9V11H6C4.895 11 4 11.895 4 13V25C4 26.105 4.895 27 6 27H24C25.105 27 26 26.105 26 25V13C26 11.895 25.105 11 24 11H22V9C22 5.27158 19.0366 2.26857 15.3555 2.07227C15.2424 2.02671 15.1219 2.00222 15 2ZM15 4C17.7737 4 20 6.22633 20 9V11H10V9C10 6.22633 12.2263 4 15 4Z",
+    fill: "#8FFF00"
+  })));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgLock);
+export default __webpack_public_path__ + "static/media/lock.bcb6d2c3344b000960dc1bfda9462bbc.svg";
+export { ForwardRef as ReactComponent };

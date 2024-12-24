@@ -1,0 +1,1 @@
+No Content: https://app.mirai.build/src/cosmos/base/v1beta1/coin.ts

@@ -1,0 +1,1 @@
+No Content: https://app.mirai.build/src/libs/fee/getL1Fee.ts

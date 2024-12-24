@@ -1,0 +1,33 @@
+var _path, _path2, _path3;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgAlert(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 30,
+    height: 27,
+    viewBox: "0 0 30 27",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M29.8537 25.4453L15.608 0.771417C15.4819 0.55284 15.2487 0.418457 14.9966 0.418457C14.7445 0.418457 14.5112 0.552922 14.3852 0.771417L0.0945953 25.5224C-0.0315318 25.741 -0.0315318 26.01 0.0945953 26.2286C0.220641 26.4471 0.453849 26.5815 0.706021 26.5815H29.2869C29.2892 26.5815 29.2916 26.5815 29.2939 26.5815C29.6838 26.5815 30 26.2657 30 25.8754C30 25.7133 29.9453 25.5646 29.8537 25.4453ZM1.92904 25.1694L14.9966 2.53646L28.0641 25.1694H1.92904Z",
+    fill: "#8FFF00"
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    d: "M14.2905 9.68232V19.8095C14.2905 20.1997 14.6066 20.5156 14.9966 20.5156C15.3865 20.5156 15.7026 20.1998 15.7026 19.8095V9.68232C15.7026 9.29274 15.3865 8.97632 14.9966 8.97632C14.6066 8.9764 14.2905 9.29282 14.2905 9.68232Z",
+    fill: "#8FFF00"
+  })), _path3 || (_path3 = /*#__PURE__*/React.createElement("path", {
+    d: "M14.9963 21.3381C14.5122 21.3381 14.1196 21.7305 14.1196 22.2146C14.1196 22.6986 14.5122 23.0916 14.9963 23.0916C15.4803 23.0916 15.873 22.6985 15.873 22.2146C15.873 21.7305 15.4804 21.3381 14.9963 21.3381Z",
+    fill: "#8FFF00"
+  })));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgAlert);
+export default __webpack_public_path__ + "static/media/alert.5812ff1f0325ddead82485d057324826.svg";
+export { ForwardRef as ReactComponent };

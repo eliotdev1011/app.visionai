@@ -1,0 +1,39 @@
+var _path, _path2, _path3, _path4, _path5;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgMiraiNaming(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 57,
+    height: 15,
+    viewBox: "0 0 57 15",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M1.908 4.15349V13.7349H0.0371094V1.66553H2.72473L7.18827 10.7247L11.6708 1.66553H14.3964V13.7349H12.5445V4.07752L7.19777 14.7035L1.908 4.15349Z",
+    fill: "white"
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    d: "M18.5947 13.7349V1.6845H20.4086V13.7349H18.5947Z",
+    fill: "white"
+  })), _path3 || (_path3 = /*#__PURE__*/React.createElement("path", {
+    d: "M33.0679 13.7349L29.725 7.16369H31.9093C32.1562 7.16369 32.3651 7.10672 32.5456 6.99276C32.726 6.87881 32.878 6.72687 32.9919 6.54645C33.1059 6.36603 33.1914 6.16661 33.2389 5.9482C33.2863 5.7298 33.3148 5.52088 33.3148 5.33096C33.3148 5.12205 33.2768 4.91314 33.2104 4.68524C33.1439 4.45733 33.0394 4.24842 32.916 4.0585C32.7925 3.86858 32.6406 3.70715 32.4601 3.5837C32.2797 3.46025 32.0707 3.40328 31.8428 3.40328H26.4106V13.7349H24.5967V1.6845H32.0897C32.5171 1.6845 32.916 1.77946 33.2863 1.95988C33.6567 2.1498 33.9891 2.4062 34.274 2.72906C34.5589 3.06142 34.7868 3.45076 34.9483 3.89707C35.1192 4.34338 35.1952 4.82768 35.1952 5.34996C35.1952 5.77728 35.1287 6.1856 34.9958 6.57494C34.8628 6.96428 34.6729 7.32512 34.4355 7.64799C34.198 7.97085 33.9131 8.23674 33.5997 8.44565C33.2768 8.65456 32.9255 8.797 32.5551 8.86348L35.0243 13.7349H33.0679Z",
+    fill: "white"
+  })), _path4 || (_path4 = /*#__PURE__*/React.createElement("path", {
+    d: "M37.8154 13.735L44.3683 0.696968L50.8547 13.735H41.6047L42.7823 12.0162H47.9011L44.3683 4.73277L39.9048 13.735H37.8154Z",
+    fill: "white"
+  })), _path5 || (_path5 = /*#__PURE__*/React.createElement("path", {
+    d: "M54.3696 13.7349V1.6845H56.1835V13.7349H54.3696Z",
+    fill: "white"
+  })));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgMiraiNaming);
+export default __webpack_public_path__ + "static/media/miraiNaming.95ca9f3b5f14daf595a2f91570955f00.svg";
+export { ForwardRef as ReactComponent };
