@@ -37,7 +37,7 @@ const Footer = () => {
             {/* Social Icons */}
             <div className="flex sm:justify-end justify-center gap-4">
               <a
-                href="https://t.me/"
+                href="https://t.me/VisionAIETH"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -48,7 +48,7 @@ const Footer = () => {
                 />
               </a>
               <a
-                href="https://twitter.com/"
+                href="https://twitter.com/VisionAIETH"
                 target="_blank"
                 rel="noreferrer"
               >
