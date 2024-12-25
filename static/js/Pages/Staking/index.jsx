@@ -154,7 +154,7 @@ const Staking = () => {
         await approveTokens.wait();
       }
 
-      setLoadMessage("Staking Mirai");
+      setLoadMessage("Staking VSAI");
       const stakeTokens = await stakeContract.depositStake(
         parseEther(trimToNoDecimals(stakeAmount).toString())
       );
@@ -163,7 +163,7 @@ const Staking = () => {
 
       getUserInfo(true);
       getContractInfo();
-      successToast("Mirai Staked!");
+      successToast("VSAI Staked!");
 
       setIsLoading(false);
       setLoadMessage("");

@@ -47,7 +47,7 @@ const Prototype = () => {
 
           <li className="text-white shadow-[inset_0_0_5px_4px_rgba(255,255,255,0.14)] sm:gap-2 gap-1 h-[120px] w-full border border-[#535353] flex items-center justify-center">
             Download and install the{" "}
-            <span className="text-[#8FFF00]">Mirai</span> application using the{" "}
+            <span className="text-[#8FFF00]">VSAI</span> application using the{" "}
             <a href="/gameBuild/build.zip" className="cursor-pointer">
               <div className="text-[#8FFF00] underline">link</div>
             </a>
@@ -65,7 +65,7 @@ const Prototype = () => {
         <div className="borde flex flex-col items-center mt-5">
           <h3 className="font-bold text-[20px]">Questions & Feedback</h3>
           <span className="text-[#6B6B6B] text-center mt-3">
-            We would like to hear from you in the official Mirai Telegram group
+            We would like to hear from you in the official VSAI Telegram group
           </span>
         </div>
       </div>

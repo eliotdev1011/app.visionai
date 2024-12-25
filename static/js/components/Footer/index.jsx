@@ -20,13 +20,13 @@ const Footer = () => {
           <div className="flex flex-col gap-4">
             {/* Info */}
             <div className="text-[14px] sm:text-[18px] flex gap-2 text-[#aaa]">
-              <a href="https://portal-visionai128.vercel.app/" target="_blank" rel="noreferrer">
+              <a href="https://www.vsai.pro/" target="_blank" rel="noreferrer">
                 <span className="hover:text-[#fff] cursor-pointer">
                   Website
                 </span>
               </a>
               <a
-                href="https://ifrices-organization.gitbook.io/visionai/"
+                href="https://docs.vsai.pro/"
                 target="_blank"
                 rel="noreferrer"
               >
