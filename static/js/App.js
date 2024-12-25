@@ -32,7 +32,7 @@ function App() {
   const metadata = {
     name: "VisionAI",
     description: "Venture Into The Future",
-    url: "https://mirai.build/",
+    url: "https://portal-visionai128.vercel.app/",
     icons: [MiraiLogo],
   };
 
