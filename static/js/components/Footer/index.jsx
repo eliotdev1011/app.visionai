@@ -59,7 +59,7 @@ const Footer = () => {
                 />
               </a>
               <a
-                href="https://www.dextools.io/app/en/ether/pool-explorer/0x"
+                href="https://www.dextools.io/app/en/ether/pair-explorer/0xcb28a1555d2f18174ebc13402bd80d8396265c21"
                 target="_blank"
                 rel="noreferrer"
               >
